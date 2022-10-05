@@ -7,19 +7,19 @@ const navigation = [
   { name: 'Experience', href: '#', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Blog', href: '#', current: false },
-  { name: 'Resume', props: {class: "bg-transparent hover:bg-primary-neon-orange text-blue-700 font-semibold hover:text-white py-2 px-4 border border-primary-neon-orange rounded"}, href: '#', current: false },
+  { name: 'Resume', props: {class: "bg-transparent hover:bg-primary-orange text-blue-700 font-semibold hover:text-white py-2 px-4 border border-primary-orange rounded"}, href: '#', current: false },
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <Disclosure as="nav" className="bg-primary-gray pt-2">
       {({ open }) => (
         <>
-          <div className="mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto px-2 sm:px-6 lg:px-14">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -34,7 +34,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                    {/* <div className='text-primary-neon-orange text-3xl font-sans'>JAI</div> */}
+                    {/* <div className='text-primary-orange text-3xl font-sans'>JAI</div> */}
                   <img
                     className="block h-8 w-auto lg:hidden"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
@@ -54,7 +54,7 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-primary-neon-orange' : 'text-white hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-900 text-primary-orange' : 'text-white hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         ) + item.props?.class}
                         aria-current={item.current ? 'page' : undefined}
@@ -94,3 +94,4 @@ export default function Navbar() {
   )
 }
 
+export default Navbar;
