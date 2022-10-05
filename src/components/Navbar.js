@@ -7,7 +7,7 @@ const navigation = [
   { name: 'Experience', href: '#', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Contact', href: '#', current: false },
-  { name: 'Resume', props: {class: "bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"}, href: '#', current: false },
+  { name: 'Resume', props: {class: "bg-transparent hover:bg-primary-neon-orange text-blue-700 font-semibold hover:text-white py-2 px-4 border border-primary-neon-orange hover:border-transparent rounded"}, href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-primary-gray pt-2">
       {({ open }) => (
         <>
           <div className="mx-auto px-2 sm:px-6 lg:px-8">
@@ -53,7 +53,7 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-900 text-primary-neon-orange' : 'text-white hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         ) + item.props?.class}
                         aria-current={item.current ? 'page' : undefined}
