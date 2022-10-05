@@ -7,8 +7,7 @@ module.exports = {
         'primary':{
           'gray': '#1A1A1D',
           'neon-orange': '#FFB400'
-        } 
-
+        }
       }
     },
   },
