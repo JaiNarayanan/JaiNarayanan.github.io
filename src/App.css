@@ -6,6 +6,7 @@ html {
 }
 body {
   @apply h-full;
+  background-color: #323231
 }
 div#__next {
   @apply h-full;

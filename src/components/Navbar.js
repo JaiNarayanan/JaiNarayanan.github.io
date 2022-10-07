@@ -7,7 +7,7 @@ const navigation = [
   { name: 'Experience', href: '#', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Blog', href: '#', current: false },
-  { name: 'Resume', props: {class: "bg-transparent hover:bg-primary-orange text-blue-700 font-semibold hover:text-white py-2 px-4 border border-primary-orange rounded"}, href: '#', current: false },
+  { name: 'Resume', props: {class: "bg-transparent hover:bg-primary-orange  font-semibold hover:text-white py-2 px-4 border border-primary-orange rounded"}, href: '#', current: false },
 ]
 
 function classNames(...classes) {
