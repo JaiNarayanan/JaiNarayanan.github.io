@@ -7,7 +7,7 @@ const navigation = [
   { name: 'Experience', href: '#', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Blog', href: '#', current: false },
-  { name: 'Resume', props: {class: "bg-transparent font-semibold py-2 px-4 border border-primary-orange rounded"}, href: '#', current: false },
+  { name: 'Resume', props: {class: "bg-transparent font-semibold py-2 px-4 border border-primary-blue rounded"}, href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -34,7 +34,7 @@ const Navbar = () => {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                    {/* <div className='text-primary-orange text-3xl font-sans'>JAI</div> */}
+                    {/* <div className='text-primary-blue text-3xl font-sans'>JAI</div> */}
                   <img
                     className="block h-8 w-auto lg:hidden"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
@@ -54,7 +54,7 @@ const Navbar = () => {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-primary-orange' : 'text-white hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-900 text-primary-blue' : 'text-white hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         ) + item.props?.class}
                         aria-current={item.current ? 'page' : undefined}

@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
         <section className="h-screen flex ">
           <div className='my-36'>
-            <div className="text-primary-orange font-mono leading-loose">
+            <div className="text-primary-blue font-mono leading-loose">
               Hello, my name is
             </div>
             <div className="text-secondary-white font-open_sans font-semibold	text-[80px] leading-normal">
@@ -33,7 +33,7 @@ const Navbar = () => {
                 }}
               />
             </div>
-            <button className='mt-5 py-3 px-20 bg-transparent hover:bg-gray-700 text-primary-orange font-semibold border border-primary-orange rounded'>Resume</button>
+            <button className='mt-5 py-3 px-20 bg-transparent hover:bg-gray-700 text-primary-blue font-semibold border border-primary-blue rounded'>Resume</button>
             </div>
         </section>
     </>
