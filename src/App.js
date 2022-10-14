@@ -7,10 +7,10 @@ import Home from './components/Home';
 const Portfolio = () => {
   return(
     <>
-      <div className="bg-primary-gray h-screen">
+      <div className="bg-primary-gray min-h-[100vh]">
         <Navbar />
         <IconBar />
-        <div id="content" className="h-screen px-[25%]">
+        <div id="content" className="h-[100%] px-[25%]">
           <Home />
           {/* <Biography />   */}
         </div>
