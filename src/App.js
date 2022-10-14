@@ -10,7 +10,7 @@ const Portfolio = () => {
       <div className="bg-primary-gray min-h-[100vh]">
         <Navbar />
         <IconBar />
-        <div id="content" className="h-[100%] px-[25%]">
+        <div id="content" className="h-[100%] px-[20%]">
           <Home />
           {/* <Biography />   */}
         </div>

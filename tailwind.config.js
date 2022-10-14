@@ -18,6 +18,8 @@ module.exports = {
         },
         'secondary':{
           'white': '#FDFEFF',
+          'gray': '#8892B0',
+          // 8892B0
         }
       }
     },
