@@ -10,15 +10,20 @@ module.exports = {
         mono: ["'DM Mono'", ...defaultTheme.fontFamily.mono],
         ubuntu: ["'Ubuntu'"],
         open_sans: ["'Open Sans'", ...defaultTheme.fontFamily.sans],
+        proxima_nova: ['Proxima Nova', 'sans-serif'],
+
       },
       colors: {
         'primary':{
-          'gray': '#1D202D',
-          'blue': '#01FFF4'
+          'gray': '#0A253B',
+          'blue': '#1FC1C3'
         },
         'secondary':{
+          'border': '#304973',
+        },
+        'fonts':{
           'white': '#FDFEFF',
-          'gray': '#8892B0',
+          'gray': '#95A3B1',
           // 8892B0
         }
       }

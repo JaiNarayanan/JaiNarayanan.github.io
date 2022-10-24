@@ -16,10 +16,10 @@ const Navbar = () => {
             <div className="text-primary-blue font-mono leading-loose">
               Hello, my name is
             </div>
-            <div className="text-secondary-white font-open_sans font-semibold	text-[80px] leading-normal">
+            <div className="text-fonts-white font-open_sans font-semibold	text-[95px] leading-normal">
               Jai Narayanan
             </div>
-            <div className="text-secondary-gray font-open_sans	text-[50px]">
+            <div className="text-fonts-gray font-proxima_nova text-[55px]">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter.typeString('Student')
