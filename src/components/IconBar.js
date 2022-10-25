@@ -8,7 +8,7 @@ import { ReactComponent as ResumeLogo } from '../assets/resume-icon.svg';
 
 const IconBar = () => {
   return (
-    <div className="fixed top-2/3 left-16 hidden md:block">
+    <div className="fixed top-2/3 left-10 hidden md:block">
       <ul className="after:w-px after:block after:bg-white after:h-screen after:mx-auto">
         <li className="mb-1">
           <a>

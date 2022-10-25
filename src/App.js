@@ -11,11 +11,12 @@ const Portfolio = () => {
       <div className="bg-primary-gray min-h-[100vh]">
         <Navbar />
         <IconBar />
-        <div id="content" className="h-[100%] px-[20%]">
+        <main className="container">
+          <div className="lg:px-10">
           <Home />
           {/* <Biography />   */}
-          <Project />
-        </div>
+          </div>
+        </main>
       </div>
     </>  
   )
