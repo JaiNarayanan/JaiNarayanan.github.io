@@ -43,14 +43,18 @@ const Navbar = () => {
                 <a class="hover:bg-primary-hover bg-primary-blue/[0.18] inline-flex justify-center items-center text-center
                 hover:text-white duration-200 undefined false false px-6 h-14 
                 rounded font-mono font-medium bg-darkLight border-none text-primary-blue hover:cursor-pointer">
-                  <ProjectIcon />
+                  <div className="mr-2">
+                    <ProjectIcon/>
+                  </div>
                   My Projects
                 </a>
                 <a class="ml-3 bg-primary-hover inline-flex justify-center items-center text-center
                 text-white duration-200 undefined false false px-6 h-14 
                 rounded font-mono font-medium bg-darkLight border-none hover:bg-primary-hover/[0.5] hover:cursor-pointer">
                   Resume
-                  <ExpandIcon/>
+                  <div className="ml-2">
+                    <ExpandIcon/>
+                  </div>                  
                 </a>
               </div>
 
