@@ -12,13 +12,11 @@ const Navbar = () => {
   return (
     <>
         <section className="h-screen flex ">
-            <div className=''>
-            <div className="relative mb-10 items-center text-3xl flex font-semibold text-white font-mono after:block 
-                    after:bg-blue-300 after:h-[1px] after:w-[200px] after:ml-5 after:bg-secondary-border
-                    before:bg-blue-300 before:h-[1px] before:w-[40px] before:mr-5 before:bg-secondary-border">
-                        Some of My Projects
-                    </div>
-            </div>
+        <div class="mb-8">
+          <h2 class="text-primary-blue font-mono text-lg font-medium aos-init aos-animate" data-aos="fade-right">
+            My Projects
+          </h2>
+        <h3 class="text-white font-sans font-bold text-2xl mt-1 aos-init aos-animate" data-aos="fade-up">Check out some of my work!</h3></div>
         </section>
     </>
   )
