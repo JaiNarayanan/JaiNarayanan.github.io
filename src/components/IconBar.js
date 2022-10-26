@@ -12,27 +12,27 @@ const IconBar = () => {
       <ul className="after:w-px after:block after:bg-white after:h-screen after:mx-auto">
         <li className="mb-1">
           <a>
-            <ResumeLogo width="24px" className="block h-10 hover:fill-primary-blue transition hover:-translate-y-1" fill="white"  />
+            <ResumeLogo className="w-6 block h-10 hover:fill-primary-blue transition hover:-translate-y-1 fill-fonts-gray"  />
           </a>
         </li>
         <li className="mb-1">
           <a>
-            <GithubLogo width="24px" className="block h-10 hover:fill-primary-blue transition hover:-translate-y-1" fill="white"  />
+            <GithubLogo className="w-6 block h-10 hover:fill-primary-blue transition hover:-translate-y-1 fill-fonts-gray"  />
           </a>
         </li>
         <li className="mb-1">
           <a>
-            <LinkedinLogo width="24px" className="block h-10 hover:fill-primary-blue transition hover:-translate-y-1" fill="white"  />
+            <LinkedinLogo className="w-6 block h-10 hover:fill-primary-blue transition hover:-translate-y-1 fill-fonts-gray"  />
           </a>
         </li>
         <li className="mb-1">
           <a>
-            <MediumLogo width="24px" className="block h-10 hover:fill-primary-blue transition hover:-translate-y-1" fill="white"  />
+            <MediumLogo className="w-6 inline-block h-10 hover:fill-primary-blue transition hover:-translate-y-1 fill-fonts-gray"  />
           </a>
         </li>
         <li className="mb-1">
           <a>
-            <MailLogo width="24px" className="block h-10 hover:fill-primary-blue transition hover:-translate-y-1" fill="white"  />
+            <MailLogo className="w-6 block h-10 hover:fill-primary-blue transition hover:-translate-y-1 fill-fonts-gray"  />
           </a>
         </li>
 
