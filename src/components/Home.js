@@ -64,11 +64,11 @@ const Navbar = () => {
           </div>
           <div className="lg:w-6/12 md:w-6/12 w-full p-4 xl:block hidden aos-init aos-animate">
             <div className="flex items-center flex-wrap">
-            <div class="xl:w-1/5 md:w-1/2 w-full"></div>
-            {/* <div class="xl:w-4/5 md:w-1/2 w-full">
-              <img class="inline object-cover mr-2 h-[280px] w-[280px] rounded" 
+            <div class="xl:w-2/5 md:w-1/2 w-full"></div>
+            <div class="xl:w-3/5 md:w-1/2 w-full">
+              <img class="inline object-cover mr-2 h-[280px] w-[280px] rounded-full" 
               src={ProfileImage} alt="Profile image"/>
-            </div> */}
+            </div>
             </div>
           </div>
         </div>
