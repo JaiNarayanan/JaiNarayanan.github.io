@@ -3,6 +3,8 @@ import profile from '../assets/me2.png'
 import Typewriter from 'typewriter-effect';
 import { ReactComponent as ProjectIcon } from '../assets/project-icon.svg';
 import { ReactComponent as ExpandIcon } from '../assets/expand-icon.svg';
+import ResumePDF from '../assets/files/Jai_Narayanan_Resume.pdf';
+import ProfileImage from '../assets/imgs/profile.jpg';
 
 const Navbar = () => {
 
@@ -48,7 +50,7 @@ const Navbar = () => {
                   </div>
                   My Projects
                 </a>
-                <a class="ml-3 bg-primary-hover inline-flex justify-center items-center text-center
+                <a target="_blank" rel="noopener noreferrer" href={ResumePDF} class="ml-3 bg-primary-hover inline-flex justify-center items-center text-center
                 text-white duration-200 undefined false false px-6 h-14 
                 rounded font-mono font-medium bg-darkLight border-none hover:bg-primary-hover/[0.5] hover:cursor-pointer">
                   Resume
@@ -60,7 +62,17 @@ const Navbar = () => {
 
             </div>
           </div>
+          <div className="lg:w-6/12 md:w-6/12 w-full p-4 xl:block hidden aos-init aos-animate">
+            <div className="flex items-center flex-wrap">
+            <div class="xl:w-1/5 md:w-1/2 w-full"></div>
+            {/* <div class="xl:w-4/5 md:w-1/2 w-full">
+              <img class="inline object-cover mr-2 h-[280px] w-[280px] rounded" 
+              src={ProfileImage} alt="Profile image"/>
+            </div> */}
+            </div>
+          </div>
         </div>
+
       </section>
     </>
   )
