@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="py-[1.5rem] md:py-24" id="#about">
+      <section className="py-[1.5rem] md:py-24">
         <div className='flex flex-wrap items-center justify-between relative'>
           <div className="xl:w-5/12 w-full p-4">
             <div className="max-w-[500px] w-full lg:text-left text-center lg:mx-0 mx-auto">
@@ -37,7 +37,7 @@ const Home = () => {
                 and participating in CTFs! 
                 </p>
               <div className="buttons mt-8 flex items-center flex-wrap lg:justify-start justify-center">
-                <a class="hover:bg-primary-hover bg-primary-blue/[0.18] inline-flex justify-center items-center text-center
+                <a className="hover:bg-primary-hover bg-primary-blue/[0.18] inline-flex justify-center items-center text-center
                 hover:text-white duration-200 undefined false false px-6 h-14 
                 rounded font-mono font-medium bg-darkLight border-none text-primary-blue hover:cursor-pointer">
                   <div className="mr-2">
@@ -45,7 +45,7 @@ const Home = () => {
                   </div>
                   My Projects
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href={ResumePDF} class="ml-3 bg-primary-hover inline-flex justify-center items-center text-center
+                <a target="_blank" rel="noopener noreferrer" href={ResumePDF} className="ml-3 bg-primary-hover inline-flex justify-center items-center text-center
                 text-white duration-200 undefined false false px-6 h-14 
                 rounded font-mono font-medium bg-darkLight border-none hover:bg-primary-hover/[0.5] hover:cursor-pointer">
                   Resume
@@ -59,9 +59,9 @@ const Home = () => {
           </div>
           <div className="lg:w-6/12 md:w-6/12 w-full p-4 xl:block hidden aos-init aos-animate">
             <div className="flex items-center flex-wrap">
-            <div class="xl:w-2/5 md:w-1/2 w-full"></div>
-            <div class="xl:w-3/5 md:w-1/2 w-full">
-              <img class="inline object-cover mr-2 h-[280px] w-[280px] rounded-full" 
+            <div className="xl:w-2/5 md:w-1/2 w-full"></div>
+            <div className="xl:w-3/5 md:w-1/2 w-full">
+              <img className="inline object-cover mr-2 h-[280px] w-[280px] rounded-full" 
               src={ProfileImage} alt="Profile image"/>
             </div>
             </div>

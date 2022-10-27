@@ -8,9 +8,8 @@ import Projects from './components/Project';
 const Portfolio = () => {
   return(
     <>
-      <div className="bg-primary-gray min-h-[100vh]">
+      <div className="bg-primary-gray min-h-[100vh]" id="about">
         <Navbar />
-        <IconBar />
         <main className="container">
           <div className="lg:px-10">
           <Home />
@@ -18,6 +17,7 @@ const Portfolio = () => {
           <Projects />  
           </div>
         </main>
+        <IconBar />
       </div>
     </>  
   )

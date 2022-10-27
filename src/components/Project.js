@@ -7,11 +7,11 @@ const Project = () => {
   return (
     <>
         <section className="h-screen flex" id="projects">
-        <div class="mb-8">
-          <h2 class="text-primary-blue font-mono text-lg font-medium aos-init aos-animate" data-aos="fade-right">
+        <div className="mb-8">
+          <h2 className="text-primary-blue font-mono text-lg font-medium aos-init aos-animate" data-aos="fade-right">
             My Projects
           </h2>
-        <h3 class="text-white font-sans font-bold text-2xl mt-1 aos-init aos-animate" data-aos="fade-up">Check out some of my creations!</h3></div>
+        <h3 className="text-white font-sans font-bold text-2xl mt-1 aos-init aos-animate" data-aos="fade-up">Check out some of my creations!</h3></div>
         </section>
     </>
   )
