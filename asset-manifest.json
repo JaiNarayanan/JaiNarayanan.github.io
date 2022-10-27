@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.28ce17fe.css",
-    "main.js": "/static/js/main.6f6ce983.js",
+    "main.css": "/static/css/main.d5192d4d.css",
+    "main.js": "/static/js/main.4ae3fc23.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/me2.png": "/static/media/me2.314ea7b5d9b7db70ecdb.png",
     "static/media/profile.jpg": "/static/media/profile.dddfd179d7b4fb7e0a1a.jpg",
-    "static/media/Jai_Narayanan_Resume.pdf": "/static/media/Jai_Narayanan_Resume.07ee41c47bd7e6afaf5e.pdf",
+    "static/media/Jai_Narayanan_Resume.pdf": "/static/media/Jai_Narayanan_Resume.36c2c3809235e37e53c6.pdf",
     "static/media/resume-icon.svg": "/static/media/resume-icon.5cbf23c17a9e65caf7622a5ad0759051.svg",
     "static/media/github-icon.svg": "/static/media/github-icon.1119789605308b19d36eb62d16f58c6e.svg",
     "index.html": "/index.html",
@@ -14,12 +14,12 @@
     "static/media/mail-icon.svg": "/static/media/mail-icon.09092ecf961ef21028c50ee0897b3346.svg",
     "static/media/expand-icon.svg": "/static/media/expand-icon.296eec2d6c3e6d323bc5ed47fa06c853.svg",
     "static/media/project-icon.svg": "/static/media/project-icon.5df0130e91b860176cd5ce85935097c7.svg",
-    "main.28ce17fe.css.map": "/static/css/main.28ce17fe.css.map",
-    "main.6f6ce983.js.map": "/static/js/main.6f6ce983.js.map",
+    "main.d5192d4d.css.map": "/static/css/main.d5192d4d.css.map",
+    "main.4ae3fc23.js.map": "/static/js/main.4ae3fc23.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28ce17fe.css",
-    "static/js/main.6f6ce983.js"
+    "static/css/main.d5192d4d.css",
+    "static/js/main.4ae3fc23.js"
   ]
 }
