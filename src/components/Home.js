@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="py-[1.5rem] md:py-24">
+      <section className="py-[1.5rem] md:py-24" id="#about">
         <div className='flex flex-wrap items-center justify-between relative'>
           <div className="xl:w-5/12 w-full p-4">
             <div className="max-w-[500px] w-full lg:text-left text-center lg:mx-0 mx-auto">

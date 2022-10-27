@@ -6,7 +6,7 @@ const Project = () => {
 
   return (
     <>
-      <section className="">
+      <section className="" id="experience">
         <div class="mb-8">
           <h2 class="text-primary-blue font-mono text-lg font-medium aos-init aos-animate" data-aos="fade-right">
             My Experience
