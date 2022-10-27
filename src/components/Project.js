@@ -2,12 +2,7 @@ import { Fragment } from 'react'
 import profile from '../assets/me2.png'
 import Typewriter from 'typewriter-effect';
 
-const Navbar = () => {
-  
-  // new Typewriter('#typewriter', {
-  //   strings: ['Hello', 'World'],
-  //   autoStart: true,
-  // });
+const Project = () => {
 
   return (
     <>
@@ -22,4 +17,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar;
+export default Project;

@@ -6,12 +6,7 @@ import { ReactComponent as ExpandIcon } from '../assets/expand-icon.svg';
 import ResumePDF from '../assets/files/Jai_Narayanan_Resume.pdf';
 import ProfileImage from '../assets/imgs/profile.jpg';
 
-const Navbar = () => {
-
-  // new Typewriter('#typewriter', {
-  //   strings: ['Hello', 'World'],
-  //   autoStart: true,
-  // });
+const Home = () => {
 
   return (
     <>
@@ -78,4 +73,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar;
+export default Home;
