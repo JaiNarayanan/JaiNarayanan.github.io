@@ -3,7 +3,7 @@ import profile from '../assets/me2.png'
 import Typewriter from 'typewriter-effect';
 import { ReactComponent as ProjectIcon } from '../assets/project-icon.svg';
 import { ReactComponent as ExpandIcon } from '../assets/expand-icon.svg';
-import ResumePDF from '../assets/files/Jai_Narayanan_Resume.pdf';
+import ResumePDF from '../assets/files/Jai_Narayanan_Spring.pdf';
 import ProfileImage from '../assets/imgs/profile.jpg';
 
 const Home = () => {
