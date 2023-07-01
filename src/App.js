@@ -8,7 +8,7 @@ import Projects from './components/Project';
 const Portfolio = () => {
   return(
     <>
-      <div className="bg-primary-gray min-h-[100vh]" id="about">
+      <div className="bg-primary-gray min-h-[100vh] fd" id="about">
         <Navbar />
         <main className="container">
           <div className="lg:px-10">
