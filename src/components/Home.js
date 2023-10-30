@@ -3,7 +3,7 @@ import profile from '../assets/me2.png'
 import Typewriter from 'typewriter-effect';
 import { ReactComponent as ProjectIcon } from '../assets/project-icon.svg';
 import { ReactComponent as ExpandIcon } from '../assets/expand-icon.svg';
-import ResumePDF from '../assets/files/Jai_Narayanan_Spring.pdf';
+import ResumePDF from '../assets/files/Jai.Narayanan.pdf';
 import ProfileImage from '../assets/imgs/profile.jpg';
 
 const Home = () => {
@@ -39,7 +39,9 @@ const Home = () => {
               <div className="buttons mt-8 flex items-center flex-wrap lg:justify-start justify-center">
                 <a className="hover:bg-primary-hover bg-primary-blue/[0.18] inline-flex justify-center items-center text-center
                 hover:text-white duration-200 undefined false false px-6 h-14 
-                rounded font-mono font-medium bg-darkLight border-none text-primary-blue hover:cursor-pointer">
+                rounded font-mono font-medium bg-darkLight border-none text-primary-blue hover:cursor-pointer"
+                href="https://github.com/JaiNarayanan" target='_blank'
+                >
                   <div className="mr-2">
                     <ProjectIcon/>
                   </div>

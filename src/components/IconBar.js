@@ -4,7 +4,7 @@ import { ReactComponent as MailLogo } from '../assets/mail-icon.svg';
 import { ReactComponent as LinkedinLogo } from '../assets/linkedin-icon.svg';
 import { ReactComponent as MediumLogo } from '../assets/medium-icon.svg';
 import { ReactComponent as ResumeLogo } from '../assets/resume-icon.svg';
-import ResumePDF from '../assets/files/Jai_Narayanan_Spring.pdf';
+import ResumePDF from '../assets/files/Jai.Narayanan.pdf';
 
 
 const IconBar = () => {
