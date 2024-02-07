@@ -20,9 +20,6 @@ const IconBar = () => {
         <a href="https://www.linkedin.com/in/jai-narayanan/" aria-label="Linkedin" class="inline-block md:mb-1 md:mr-0 mr-4" target="_blank" rel="noreferrer">
           <LinkedinLogo className="w-6 block h-8 hover:fill-primary-blue transition hover:-translate-y-1 fill-fonts-gray"  />
         </a>
-        <a href="https://medium.com/@jainaraya" aria-label="Medium" class="inline-block md:mb-1 md:mr-0 mr-4" target="_blank" rel="noreferrer">
-          <MediumLogo className="w-6 block h-8 hover:fill-primary-blue transition hover:-translate-y-1 fill-fonts-gray"  />
-        </a>
         <a href="mailto:jainara@umich.edu" aria-label="Mail" class="inline-block md:mb-1 md:mr-0 mr-4" target="_blank" rel="noreferrer">
           <MailLogo className="w-6 block h-8 hover:fill-primary-blue transition hover:-translate-y-1 fill-fonts-gray"  />
         </a>

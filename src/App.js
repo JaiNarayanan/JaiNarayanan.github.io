@@ -13,8 +13,8 @@ const Portfolio = () => {
         <main className="container">
           <div className="lg:px-10">
           <Home />
-          {/* <Experience />  
-          <Projects />   */}
+          {/* <Experience />   */}
+          <Projects />  
           </div>
         </main>
         <IconBar />
