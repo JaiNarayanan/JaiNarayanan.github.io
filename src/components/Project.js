@@ -27,7 +27,8 @@ const Project = () => {
             <li className='text-white text-xl'>I contributed towards the overall feel of the player movement and authentic recreation of the map</li>
           </ul>
           <h4 className="text-white text-2xl">Tech Stack: Unity and C#</h4>
-          <h4 className="text-white text-2xl">Check out the game below! Or at this <a href="">link</a></h4>
+          <h4 className="text-white text-2xl">Check out the game below! Or at this <a href="https://linkstorm.itch.io/metroid">link</a></h4>
+          <a href="https://linkstorm.itch.io/metroid">Game On Itch.io</a>
 
       </section>
     </>
