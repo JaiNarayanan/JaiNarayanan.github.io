@@ -48,8 +48,9 @@ const Project = () => {
         </h4>
         <ul className="ml-3">
           <li className="text-white text-xl">
-            Over the last two weeks I built this game as part of a rapid
-            development attempt!
+            This is my take on the survival horror genre, where the main
+            challenge is managing a tedious reload process as enemies slowly
+            hunt you down.
           </li>
         </ul>
         <h4 className="text-white text-2xl">Tech Stack: Unity and C#</h4>
