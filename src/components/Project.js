@@ -63,6 +63,33 @@ const Project = () => {
             link
           </a>
         </h4>
+        <div>---------------------------------------</div>
+        <h4 className="text-white text-2xl font-semibold">
+          EECS 494 Project 3: Hand of Light
+        </h4>
+        <ul className="ml-3">
+          <li className="text-white text-xl">
+            A unit-focused RTS game with a blend of futuristic and medieval warfare.
+          </li>
+        </ul>
+        <h4 className="text-white text-2xl">Tech Stack: Unity and C#</h4>
+        <h4 className="text-white text-2xl font-semibold">
+          Personal Contributions:
+        </h4>
+        <ul className="ml-3">
+          <li className="text-white text-xl">
+            I built the terrain for the levels, the enemy AI, and parts of the damage and stats system for units.
+          </li>
+        </ul>
+        <h4 className="text-white text-2xl">
+          You can play the game on itch.io here: {" "}
+          <a
+            className="text-blue-500 hover:underline"
+            href="https://linkstorm.itch.io/hand-of-light"
+          >
+            link
+          </a>
+        </h4>
       </section>
     </>
   );
